@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+		<template id="report_purchaseorder_document_inherit_dds_localization_sk" inherit_id="purchase.report_purchaseorder_document">
+			<xpath expr="//p[@t-if='o.partner_id.vat']" position="replace">
+				<p>
+					<t t-if="o.partner_id.dds_company_id">
+						ID: <t t-esc="o.partner_id.dds_company_id"/>
+					</t>
+					<t t-if="o.company_id.country_id.code != 'CZ' and o.partner_id.dds_tax_id">
+						<t t-if="o.partner_id.dds_company_id"><![CDATA[&nbsp;]]><![CDATA[&nbsp;]]> </t>Tax ID: <t t-esc="o.partner_id.dds_tax_id"/>
+					</t>
+					<t t-if="o.partner_id.vat">
+						<t t-if="o.partner_id.dds_company_id or (o.company_id.country_id.code != 'CZ' and o.partner_id.dds_tax_id)">
+							<br />
+						</t>
+						Vat ID: <t t-esc="o.partner_id.vat"/>
+					</t>
+				</p>
+			</xpath>
+
+			<xpath expr="//div[hasclass('page')]/h2[1]" position="replace">
+				<h2 />
+				<br />
+			</xpath>
+			<xpath expr="//div[hasclass('page')]/h2[2]" position="replace" />
+			<xpath expr="//div[hasclass('page')]/h2[2]" position="replace" />
+			<xpath expr="//div[hasclass('page')]/h2[2]" position="replace" />
+
+			<xpath expr="//div[hasclass('page')]/table[hasclass('table', 'table-sm', 'o_main_table')]/thead/tr[1]" position="before">
+				<tr>
+					<th colspan="99">
+						<h2 t-if="o.state == 'draft'">
+							Request for Quotation #<span t-field="o.name"/>
+						</h2>
+						<h2 t-if="o.state in ['sent', 'to approve']">
+							Purchase Order #<span t-field="o.name"/>
+						</h2>
+						<h2 t-if="o.state in ['purchase', 'done']">
+							Purchase Order #<span t-field="o.name"/>
+						</h2>
+						<h2 t-if="o.state == 'cancel'">
+							Cancelled Purchase Order #<span t-field="o.name"/>
+						</h2>
+					</th>
+				</tr>
+			</xpath>
+
+			<xpath expr="//div[hasclass('page')]/table[hasclass('table', 'table-sm', 'o_main_table')]/thead/tr[2]/th[1]" position="before">
+				<th name="th_line_index" class="text-right" />
+			</xpath>
+
+			<xpath expr="//div[hasclass('page')]/table[hasclass('table', 'table-sm', 'o_main_table')]/tbody/t[@t-foreach='o.order_line']/tr[1]/t[1]/td[@id='product']" position="before">
+				<td name="td_line_index" class="text-right">
+					<t t-set="dds_line_index" t-value="dds_line_index + 1"/>
+					<span t-esc="dds_line_index"/>
+				</td>
+			</xpath>
+
+			<xpath expr="//div[hasclass('page')]/table" position="before">
+				<t t-set="dds_line_index" t-value="0"/>
+			</xpath>
+		</template>
+	</data>
+</odoo>

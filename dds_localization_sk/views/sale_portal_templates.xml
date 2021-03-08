@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="sale_order_portal_content_inherit_dds_localization_sk" inherit_id="sale.sale_order_portal_content">
+		<xpath expr="//table[@id='sales_order_table']/thead//tr/th[hasclass('text-left')][1]" position="before">
+			<th name="th_line_index" class="text-right" />
+		</xpath>
+
+		<xpath expr="//table[@id='sales_order_table']/tbody[hasclass('sale_tbody')]/t[@t-foreach='sale_order.order_line']/tr[1]/t[1]/td[@id='product_name']" position="before">
+			<td name="td_line_index" class="text-right">
+				<t t-set="dds_line_index" t-value="dds_line_index + 1"/>
+				<span t-esc="dds_line_index"/>
+			</td>
+		</xpath>
+
+		<xpath expr="//table[@id='sales_order_table']" position="before">
+			<t t-set="dds_line_index" t-value="0"/>
+		</xpath>
+    </template>
+</odoo>

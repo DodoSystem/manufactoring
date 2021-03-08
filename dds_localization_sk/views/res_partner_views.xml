@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<odoo>
+	<data>
+		<record id="view_partner_form" model="ir.ui.view">
+			<field name="name">res.partner.form.inherit.dds_localization_sk</field>
+			<field name="model">res.partner</field>
+			<field name="inherit_id" ref="base.view_partner_form"/>
+			<field name="priority" eval="100"/>
+			<field name="type">form</field>
+			<field name="arch" type="xml">
+				<xpath expr="//field[@name='vat']" position="before">
+					<field name="dds_tax_id_hidden" invisible="True" />
+					<field name="dds_company_id" attrs="{'readonly': [('parent_id','!=',False)]}" />
+					<field name="dds_tax_id" attrs="{'readonly': [('parent_id', '!=', False)], 'invisible': [('dds_tax_id_hidden', '=', True)]}" />
+				</xpath>
+			</field>
+		</record>
+		<record id="view_partner_tree" model="ir.ui.view">
+			<field name="name">res.partner.tree.inherit.dds_localization_sk</field>
+			<field name="model">res.partner</field>
+			<field name="inherit_id" ref="base.view_partner_tree"/>
+			<field name="priority" eval="100"/>
+			<field name="type">form</field>
+			<field name="arch" type="xml">
+				<xpath expr="//field[@name='vat']" position="before">
+					<field name="dds_company_id" optional="hide"/>
+					<field name="dds_tax_id" optional="hide"/>
+				</xpath>
+			</field>
+		</record>
+	</data>
+</odoo>

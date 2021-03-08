@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<odoo>
+	<data>
+		<record id="view_order_form" model="ir.ui.view">
+			<field name="name">sale.order.form.inherit.dds_localization_sk</field>
+			<field name="model">sale.order</field>
+			<field name="inherit_id" ref="sale.view_order_form"/>
+			<field name="priority" eval="100"/>
+			<field name="type">form</field>
+			<field name="arch" type="xml">
+				<xpath expr="//page[last()]" position="after">
+					<page name="addresses" string="Addresses">
+						<field name="dds_tax_id_hidden" invisible="True" />
+						<group col="6">
+							<group string="Customer" col="2" colspan="2">
+								<field string="Name" name="dds_partner_name" />
+								<field string="Street" name="dds_partner_street" />
+								<field string="Street 2" name="dds_partner_street2" />
+								<field string="City" name="dds_partner_city" />
+								<field string="State" name="dds_partner_state" invisible="1" />
+								<field string="ZIP" name="dds_partner_zip" />
+								<field string="Country" name="dds_partner_country" />
+								<field name="dds_partner_dds_company_id" />
+								<field name="dds_partner_dds_tax_id" attrs="{'invisible': [('dds_tax_id_hidden', '=', True)]}" />
+								<field name="dds_partner_vat" />
+							</group>
+							<group string="Invoice address" col="2" colspan="2">
+								<field string="Name" name="dds_partner_invoicing_name" />
+								<field string="Street" name="dds_partner_invoicing_street" />
+								<field string="Street 2" name="dds_partner_invoicing_street2" />
+								<field string="City" name="dds_partner_invoicing_city" />
+								<field string="State" name="dds_partner_invoicing_state" invisible="1" />
+								<field string="ZIP" name="dds_partner_invoicing_zip" />
+								<field string="Country" name="dds_partner_invoicing_country" />
+							</group>
+							<group string="Delivery address" col="2" colspan="2">
+								<field string="Name" name="dds_partner_shipping_name" />
+								<field string="Street" name="dds_partner_shipping_street" />
+								<field string="Street 2" name="dds_partner_shipping_street2" />
+								<field string="City" name="dds_partner_shipping_city" />
+								<field string="State" name="dds_partner_shipping_state" invisible="1" />
+								<field string="ZIP" name="dds_partner_shipping_zip" />
+								<field string="Country" name="dds_partner_shipping_country" />
+							</group>
+						</group>
+					</page>
+				</xpath>
+			</field>
+		</record>
+		<record id="view_order_tree" model="ir.ui.view">
+			<field name="name">sale.order.tree.inherit.dds_localization_sk</field>
+			<field name="model">sale.order</field>
+			<field name="inherit_id" ref="sale.view_order_tree"/>
+			<field name="priority" eval="30"/>
+			<field name="arch" type="xml">
+				<xpath expr="//field[@name='partner_id']" position="after">
+					<field name="dds_partner_dds_company_id" optional="hide"/>
+					<field name="dds_partner_dds_tax_id" optional="hide"/>
+					<field name="dds_partner_vat" optional="hide"/>
+				</xpath>
+			</field>
+		</record>
+		<record id="view_quotation_tree" model="ir.ui.view">
+			<field name="name">sale.order.tree.inherit.dds_localization_sk</field>
+			<field name="model">sale.order</field>
+			<field name="inherit_id" ref="sale.view_quotation_tree"/>
+			<field name="priority" eval="30"/>
+			<field name="arch" type="xml">
+				<xpath expr="//field[@name='partner_id']" position="after">
+					<field name="dds_partner_dds_company_id" optional="hide"/>
+					<field name="dds_partner_dds_tax_id" optional="hide"/>
+					<field name="dds_partner_vat" optional="hide"/>
+				</xpath>
+			</field>
+		</record>
+	</data>
+</odoo>
