@@ -1,0 +1,562 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* dds_localization_sk
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e-20201228\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-28 13:34+0000\n"
+"PO-Revision-Date: 2021-01-28 15:00+0100\n"
+"Last-Translator: Robert Svajdlenka <robert.svajdlenka@dodosys.sk>, 2021\n"
+"Language-Team: Slovak (http://www.dodosys.sk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
+"X-Generator: Poedit 2.4.2\n"
+"Language: sk\n"
+
+#. module: dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.report_saleorder_document_inherit_dds_localization_sk
+msgid "<span>Pro-Forma Invoice # </span>"
+msgstr "<span>Zálohová faktúra # </span>"
+
+#. module: dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.report_invoice_document_inherit_dds_localization_sk
+msgid "<strong>VAT Date:</strong>"
+msgstr "<strong>Dátum dodania:</strong>"
+
+#. module: dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.purchase_order_form
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.view_move_form
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.view_order_form
+msgid "Addresses"
+msgstr "Adresy"
+
+#. module: dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.report_invoice_document_inherit_dds_localization_sk
+msgid "Cancelled Invoice"
+msgstr "Zrušená faktúra"
+
+#. module: dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.report_purchaseorder_document_inherit_dds_localization_sk
+msgid "Cancelled Purchase Order #"
+msgstr "Zrušená nákupná objednávka #"
+
+#. module: dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.purchase_order_form
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.view_move_form
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.view_order_form
+msgid "City"
+msgstr "Mesto"
+
+#. module: dds_localization_sk
+#: model:ir.model,name:dds_localization_sk.model_res_company
+msgid "Companies"
+msgstr "Firmy"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_bank_statement_line__dds_partner_dds_company_id
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_move__dds_partner_dds_company_id
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_payment__dds_partner_dds_company_id
+#: model:ir.model.fields,field_description:dds_localization_sk.field_purchase_order__dds_partner_dds_company_id
+#: model:ir.model.fields,field_description:dds_localization_sk.field_res_company__dds_company_id
+#: model:ir.model.fields,field_description:dds_localization_sk.field_res_partner__dds_company_id
+#: model:ir.model.fields,field_description:dds_localization_sk.field_res_users__dds_company_id
+#: model:ir.model.fields,field_description:dds_localization_sk.field_sale_order__dds_partner_dds_company_id
+msgid "Company ID (IČO)"
+msgstr "IČO"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,help:dds_localization_sk.field_res_company__dds_company_id
+#: model:ir.model.fields,help:dds_localization_sk.field_res_partner__dds_company_id
+#: model:ir.model.fields,help:dds_localization_sk.field_res_users__dds_company_id
+msgid "Company ID (IČO)."
+msgstr "IČO."
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_res_partner__dds_company_registry
+#: model:ir.model.fields,field_description:dds_localization_sk.field_res_users__dds_company_registry
+msgid "Company registry"
+msgstr "Spisová značka"
+
+#. module: dds_localization_sk
+#: model:ir.model,name:dds_localization_sk.model_res_partner
+msgid "Contact"
+msgstr "Kontakt"
+
+#. module: dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.purchase_order_form
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.view_move_form
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.view_order_form
+msgid "Country"
+msgstr "Krajina"
+
+#. module: dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.report_invoice_document_inherit_dds_localization_sk
+msgid "Credit Note"
+msgstr "Dobropis"
+
+#. module: dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.view_move_form
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.view_order_form
+msgid "Customer"
+msgstr "Zákazník"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_sale_order__dds_partner_city
+msgid "Customer - City"
+msgstr "Zákazník - mesto"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_sale_order__dds_partner_country
+msgid "Customer - Country"
+msgstr "Zákazník - krajina"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_sale_order__dds_partner_name
+msgid "Customer - Name"
+msgstr "Zákazník - Názov"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_sale_order__dds_partner_state
+msgid "Customer - State"
+msgstr "Zákazník - štát"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_sale_order__dds_partner_street
+msgid "Customer - Street"
+msgstr "Zákazník - ulica"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_sale_order__dds_partner_street2
+msgid "Customer - Street 2"
+msgstr "Zákazník - ulica 2"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_sale_order__dds_partner_zip
+msgid "Customer - Zip"
+msgstr "Zákazník - PSČ"
+
+#. module: dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.view_move_form
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.view_order_form
+msgid "Delivery address"
+msgstr "Dodacia adresa"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_bank_statement_line__dds_partner_shipping_city
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_move__dds_partner_shipping_city
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_payment__dds_partner_shipping_city
+#: model:ir.model.fields,field_description:dds_localization_sk.field_sale_order__dds_partner_shipping_city
+msgid "Delivery address - City"
+msgstr "Dodacia adresa - mesto"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_bank_statement_line__dds_partner_shipping_country
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_move__dds_partner_shipping_country
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_payment__dds_partner_shipping_country
+#: model:ir.model.fields,field_description:dds_localization_sk.field_sale_order__dds_partner_shipping_country
+msgid "Delivery address - Country"
+msgstr "Dodacia adresa - krajina"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_bank_statement_line__dds_partner_shipping_name
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_move__dds_partner_shipping_name
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_payment__dds_partner_shipping_name
+#: model:ir.model.fields,field_description:dds_localization_sk.field_sale_order__dds_partner_shipping_name
+msgid "Delivery address - Name"
+msgstr "Dodacia adresa - názov"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_bank_statement_line__dds_partner_shipping_state
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_move__dds_partner_shipping_state
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_payment__dds_partner_shipping_state
+#: model:ir.model.fields,field_description:dds_localization_sk.field_sale_order__dds_partner_shipping_state
+msgid "Delivery address - State"
+msgstr "Dodacia adresa - štát"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_bank_statement_line__dds_partner_shipping_street
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_move__dds_partner_shipping_street
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_payment__dds_partner_shipping_street
+#: model:ir.model.fields,field_description:dds_localization_sk.field_sale_order__dds_partner_shipping_street
+msgid "Delivery address - Street"
+msgstr "Dodacia adresa - ulica"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_bank_statement_line__dds_partner_shipping_street2
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_move__dds_partner_shipping_street2
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_payment__dds_partner_shipping_street2
+#: model:ir.model.fields,field_description:dds_localization_sk.field_sale_order__dds_partner_shipping_street2
+msgid "Delivery address - Street 2"
+msgstr "Dodacia adresa - ulica 2"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_bank_statement_line__dds_partner_shipping_zip
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_move__dds_partner_shipping_zip
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_payment__dds_partner_shipping_zip
+#: model:ir.model.fields,field_description:dds_localization_sk.field_sale_order__dds_partner_shipping_zip
+msgid "Delivery address - Zip"
+msgstr "Dodacia adresa - PSČ"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_move__display_name
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_payment__display_name
+#: model:ir.model.fields,field_description:dds_localization_sk.field_purchase_order__display_name
+#: model:ir.model.fields,field_description:dds_localization_sk.field_res_company__display_name
+#: model:ir.model.fields,field_description:dds_localization_sk.field_res_partner__display_name
+#: model:ir.model.fields,field_description:dds_localization_sk.field_sale_order__display_name
+msgid "Display Name"
+msgstr "Zobrazované meno"
+
+#. module: dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.report_invoice_document_inherit_dds_localization_sk
+msgid "Draft Invoice"
+msgstr "Návrh faktúry"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_bank_statement_line__dds_tax_id_hidden
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_move__dds_tax_id_hidden
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_payment__dds_tax_id_hidden
+#: model:ir.model.fields,field_description:dds_localization_sk.field_purchase_order__dds_tax_id_hidden
+#: model:ir.model.fields,field_description:dds_localization_sk.field_res_company__dds_tax_id_hidden
+#: model:ir.model.fields,field_description:dds_localization_sk.field_sale_order__dds_tax_id_hidden
+msgid "Hide Tax ID (DIČ)"
+msgstr "Skryť DIČ"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_move__id
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_payment__id
+#: model:ir.model.fields,field_description:dds_localization_sk.field_purchase_order__id
+#: model:ir.model.fields,field_description:dds_localization_sk.field_res_company__id
+#: model:ir.model.fields,field_description:dds_localization_sk.field_res_partner__id
+#: model:ir.model.fields,field_description:dds_localization_sk.field_sale_order__id
+msgid "ID"
+msgstr "IČO"
+
+#. module: dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.external_layout_background_inherit_dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.external_layout_boxed_inherit_dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.external_layout_standard_inherit_dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.report_invoice_document_inherit_dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.report_purchaseorder_document_inherit_dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.report_purchasequotation_document_inherit_dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.report_saleorder_document_inherit_dds_localization_sk
+msgid "ID:"
+msgstr "IČO:"
+
+#. module: dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.report_invoice_document_inherit_dds_localization_sk
+msgid "Invoice"
+msgstr "Faktúra"
+
+#. module: dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.view_move_form
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.view_order_form
+msgid "Invoice address"
+msgstr "Fakturačná adresa"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_bank_statement_line__dds_partner_invoicing_city
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_move__dds_partner_invoicing_city
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_payment__dds_partner_invoicing_city
+#: model:ir.model.fields,field_description:dds_localization_sk.field_sale_order__dds_partner_invoicing_city
+msgid "Invoice address - City"
+msgstr "Fakturačná adresa - mesto"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_bank_statement_line__dds_partner_invoicing_country
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_move__dds_partner_invoicing_country
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_payment__dds_partner_invoicing_country
+#: model:ir.model.fields,field_description:dds_localization_sk.field_sale_order__dds_partner_invoicing_country
+msgid "Invoice address - Country"
+msgstr "Fakturačná adresa - krajina"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_bank_statement_line__dds_partner_invoicing_name
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_move__dds_partner_invoicing_name
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_payment__dds_partner_invoicing_name
+#: model:ir.model.fields,field_description:dds_localization_sk.field_sale_order__dds_partner_invoicing_name
+msgid "Invoice address - Name"
+msgstr "Fakturačná adresa - názov"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_bank_statement_line__dds_partner_invoicing_state
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_move__dds_partner_invoicing_state
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_payment__dds_partner_invoicing_state
+#: model:ir.model.fields,field_description:dds_localization_sk.field_sale_order__dds_partner_invoicing_state
+msgid "Invoice address - State"
+msgstr "Fakturačná adresa - štát"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_bank_statement_line__dds_partner_invoicing_street
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_move__dds_partner_invoicing_street
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_payment__dds_partner_invoicing_street
+#: model:ir.model.fields,field_description:dds_localization_sk.field_sale_order__dds_partner_invoicing_street
+msgid "Invoice address - Street"
+msgstr "Fakturačná adresa - ulica"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_bank_statement_line__dds_partner_invoicing_street2
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_move__dds_partner_invoicing_street2
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_payment__dds_partner_invoicing_street2
+#: model:ir.model.fields,field_description:dds_localization_sk.field_sale_order__dds_partner_invoicing_street2
+msgid "Invoice address - Street 2"
+msgstr "Fakturačná adresa - ulica 2"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_bank_statement_line__dds_partner_invoicing_zip
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_move__dds_partner_invoicing_zip
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_payment__dds_partner_invoicing_zip
+#: model:ir.model.fields,field_description:dds_localization_sk.field_sale_order__dds_partner_invoicing_zip
+msgid "Invoice address - Zip"
+msgstr "Fakturačná adresa - PSČ"
+
+#. module: dds_localization_sk
+#: model:ir.model,name:dds_localization_sk.model_account_move
+msgid "Journal Entry"
+msgstr "Vstup účtovnej knihy"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_move____last_update
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_payment____last_update
+#: model:ir.model.fields,field_description:dds_localization_sk.field_purchase_order____last_update
+#: model:ir.model.fields,field_description:dds_localization_sk.field_res_company____last_update
+#: model:ir.model.fields,field_description:dds_localization_sk.field_res_partner____last_update
+#: model:ir.model.fields,field_description:dds_localization_sk.field_sale_order____last_update
+msgid "Last Modified on"
+msgstr "Posledná úprava"
+
+#. module: dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.purchase_order_form
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.view_move_form
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.view_order_form
+msgid "Name"
+msgstr "Názov"
+
+#. module: dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.report_saleorder_document_inherit_dds_localization_sk
+msgid "Order #"
+msgstr "Objednávka #"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_bank_statement_line__dds_partner_city
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_move__dds_partner_city
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_payment__dds_partner_city
+msgid "Partner - City"
+msgstr "Partner - mesto"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_bank_statement_line__dds_partner_country
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_move__dds_partner_country
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_payment__dds_partner_country
+msgid "Partner - Country"
+msgstr "Partner - krajina"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_bank_statement_line__dds_partner_name
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_move__dds_partner_name
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_payment__dds_partner_name
+msgid "Partner - Name"
+msgstr "Partner - názov"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_bank_statement_line__dds_partner_state
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_move__dds_partner_state
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_payment__dds_partner_state
+msgid "Partner - State"
+msgstr "Partner - štát"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_bank_statement_line__dds_partner_street
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_move__dds_partner_street
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_payment__dds_partner_street
+msgid "Partner - Street"
+msgstr "Partner - ulica"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_bank_statement_line__dds_partner_street2
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_move__dds_partner_street2
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_payment__dds_partner_street2
+msgid "Partner - Street 2"
+msgstr "Partner - ulica 2"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_bank_statement_line__dds_partner_zip
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_move__dds_partner_zip
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_payment__dds_partner_zip
+msgid "Partner - Zip"
+msgstr "Partner - PSČ"
+
+#. module: dds_localization_sk
+#: model:ir.model,name:dds_localization_sk.model_account_payment
+msgid "Payments"
+msgstr "Platby"
+
+#. module: dds_localization_sk
+#: model:ir.model,name:dds_localization_sk.model_purchase_order
+msgid "Purchase Order"
+msgstr "Nákupná objednávka"
+
+#. module: dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.report_purchaseorder_document_inherit_dds_localization_sk
+msgid "Purchase Order #"
+msgstr "Objednávka #"
+
+#. module: dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.report_saleorder_document_inherit_dds_localization_sk
+msgid "Quotation #"
+msgstr "Cenová ponuka #"
+
+#. module: dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.report_purchasequotation_document_inherit_dds_localization_sk
+msgid "Request for Quotation"
+msgstr "Žiadosť o cenovú ponuku"
+
+#. module: dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.report_purchaseorder_document_inherit_dds_localization_sk
+msgid "Request for Quotation #"
+msgstr "Žiadosť o cenovú ponuku #"
+
+#. module: dds_localization_sk
+#: model:ir.model,name:dds_localization_sk.model_sale_order
+msgid "Sales Order"
+msgstr "Predajná objednávka"
+
+#. module: dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.purchase_order_form
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.view_move_form
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.view_order_form
+msgid "State"
+msgstr "Štát"
+
+#. module: dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.purchase_order_form
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.view_move_form
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.view_order_form
+msgid "Street"
+msgstr "Ulica"
+
+#. module: dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.purchase_order_form
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.view_move_form
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.view_order_form
+msgid "Street 2"
+msgstr "Ulica 2"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_bank_statement_line__dds_partner_dds_tax_id
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_move__dds_partner_dds_tax_id
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_payment__dds_partner_dds_tax_id
+#: model:ir.model.fields,field_description:dds_localization_sk.field_purchase_order__dds_partner_dds_tax_id
+#: model:ir.model.fields,field_description:dds_localization_sk.field_res_company__dds_tax_id
+#: model:ir.model.fields,field_description:dds_localization_sk.field_res_partner__dds_tax_id
+#: model:ir.model.fields,field_description:dds_localization_sk.field_res_users__dds_tax_id
+#: model:ir.model.fields,field_description:dds_localization_sk.field_sale_order__dds_partner_dds_tax_id
+msgid "Tax ID (DIČ)"
+msgstr "DIČ"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,help:dds_localization_sk.field_res_company__dds_tax_id
+#: model:ir.model.fields,help:dds_localization_sk.field_res_partner__dds_tax_id
+#: model:ir.model.fields,help:dds_localization_sk.field_res_users__dds_tax_id
+msgid "Tax ID (DIČ)."
+msgstr "DIČ."
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_bank_statement_line__dds_partner_vat
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_move__dds_partner_vat
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_payment__dds_partner_vat
+#: model:ir.model.fields,field_description:dds_localization_sk.field_purchase_order__dds_partner_vat
+#: model:ir.model.fields,field_description:dds_localization_sk.field_sale_order__dds_partner_vat
+msgid "Tax ID (IČ DPH)"
+msgstr "IČ DPH"
+
+#. module: dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.external_layout_background_inherit_dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.external_layout_boxed_inherit_dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.external_layout_standard_inherit_dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.report_invoice_document_inherit_dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.report_purchaseorder_document_inherit_dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.report_purchasequotation_document_inherit_dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.report_saleorder_document_inherit_dds_localization_sk
+msgid "Tax ID:"
+msgstr "DIČ:"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_bank_statement_line__dds_vat_date
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_move__dds_vat_date
+#: model:ir.model.fields,field_description:dds_localization_sk.field_account_payment__dds_vat_date
+msgid "VAT Date"
+msgstr "Dátum dodania"
+
+#. module: dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.external_layout_background_inherit_dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.external_layout_boxed_inherit_dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.external_layout_standard_inherit_dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.report_invoice_document_inherit_dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.report_purchaseorder_document_inherit_dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.report_purchasequotation_document_inherit_dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.report_saleorder_document_inherit_dds_localization_sk
+msgid "Vat ID:"
+msgstr "IČ DPH:"
+
+#. module: dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.purchase_order_form
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.view_move_form
+msgid "Vendor"
+msgstr "Dodávateľ"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_purchase_order__dds_partner_city
+msgid "Vendor - City"
+msgstr "Dodávateľ - mesto"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_purchase_order__dds_partner_country
+msgid "Vendor - Country"
+msgstr "Dodávateľ - krajina"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_purchase_order__dds_partner_name
+msgid "Vendor - Name"
+msgstr "Dodávateľ - názov"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_purchase_order__dds_partner_state
+msgid "Vendor - State"
+msgstr "Dodávateľ - štát"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_purchase_order__dds_partner_street
+msgid "Vendor - Street"
+msgstr "Dodávateľ - ulica"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_purchase_order__dds_partner_street2
+msgid "Vendor - Street 2"
+msgstr "Dodávateľ - ulica 2"
+
+#. module: dds_localization_sk
+#: model:ir.model.fields,field_description:dds_localization_sk.field_purchase_order__dds_partner_zip
+msgid "Vendor - Zip"
+msgstr "Dodávateľ - PSČ"
+
+#. module: dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.report_invoice_document_inherit_dds_localization_sk
+msgid "Vendor Bill"
+msgstr "Dodávateľský doklad"
+
+#. module: dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.report_invoice_document_inherit_dds_localization_sk
+msgid "Vendor Credit Note"
+msgstr "Dodávateľský dobropis"
+
+#. module: dds_localization_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.purchase_order_form
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.view_move_form
+#: model_terms:ir.ui.view,arch_db:dds_localization_sk.view_order_form
+msgid "ZIP"
+msgstr "PSČ"

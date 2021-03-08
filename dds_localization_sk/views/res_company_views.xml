@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+		<record id="view_company_form" model="ir.ui.view">
+			<field name="name">res.company.form.inherit.dds_localization_sk</field>
+			<field name="model">res.company</field>
+			<field name="inherit_id" ref="base.view_company_form"/>
+			<field name="priority" eval="100"/>
+			<field name="type">form</field>
+			<field name="arch" type="xml">
+				<xpath expr="//field[@name='vat']" position="before">
+					<field name="dds_tax_id_hidden" invisible="True" />
+					<field name="dds_company_id" attrs="{'readonly': [('parent_id', '!=', False)]}" />
+					<field name="dds_tax_id" attrs="{'readonly': [('parent_id', '!=', False)], 'invisible': [('dds_tax_id_hidden', '=', True)]}" />
+				</xpath>
+			</field>
+		</record>
+    </data>
+</odoo>

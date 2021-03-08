@@ -1,0 +1,193 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* dds_localization_stock_sk
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e-20201228\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-28 13:31+0000\n"
+"PO-Revision-Date: 2021-01-28 14:32+0100\n"
+"Last-Translator: Robert Svajdlenka <robert.svajdlenka@dodosys.sk>, 2021\n"
+"Language-Team: Slovak (http://www.dodosys.sk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
+"X-Generator: Poedit 2.4.2\n"
+"Language: sk\n"
+
+#. module: dds_localization_stock_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_stock_sk.view_picking_form
+msgid "Addresses"
+msgstr "Adresy"
+
+#. module: dds_localization_stock_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_stock_sk.view_picking_form
+msgid "City"
+msgstr "Mesto"
+
+#. module: dds_localization_stock_sk
+#: model:ir.model.fields,field_description:dds_localization_stock_sk.field_stock_picking__dds_partner_dds_company_id
+msgid "Company ID (IČO)"
+msgstr "IČO"
+
+#. module: dds_localization_stock_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_stock_sk.view_picking_form
+msgid "Country"
+msgstr "Krajina"
+
+#. module: dds_localization_stock_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_stock_sk.view_picking_form
+msgid "Customer"
+msgstr "Zákazník"
+
+#. module: dds_localization_stock_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_stock_sk.view_picking_form
+msgid "Delivery address"
+msgstr "Dodacia adresa"
+
+#. module: dds_localization_stock_sk
+#: model:ir.model.fields,field_description:dds_localization_stock_sk.field_stock_picking__dds_partner_shipping_city
+msgid "Delivery address - City"
+msgstr "Dodacia adresa - mesto"
+
+#. module: dds_localization_stock_sk
+#: model:ir.model.fields,field_description:dds_localization_stock_sk.field_stock_picking__dds_partner_shipping_country
+msgid "Delivery address - Country"
+msgstr "Dodacia adresa - krajina"
+
+#. module: dds_localization_stock_sk
+#: model:ir.model.fields,field_description:dds_localization_stock_sk.field_stock_picking__dds_partner_shipping_name
+msgid "Delivery address - Name"
+msgstr "Dodacia adresa - názov"
+
+#. module: dds_localization_stock_sk
+#: model:ir.model.fields,field_description:dds_localization_stock_sk.field_stock_picking__dds_partner_shipping_state
+msgid "Delivery address - State"
+msgstr "Dodacia adresa - štát"
+
+#. module: dds_localization_stock_sk
+#: model:ir.model.fields,field_description:dds_localization_stock_sk.field_stock_picking__dds_partner_shipping_street
+msgid "Delivery address - Street"
+msgstr "Dodacia adresa - ulica"
+
+#. module: dds_localization_stock_sk
+#: model:ir.model.fields,field_description:dds_localization_stock_sk.field_stock_picking__dds_partner_shipping_street2
+msgid "Delivery address - Street 2"
+msgstr "Dodacia adresa - ulica 2"
+
+#. module: dds_localization_stock_sk
+#: model:ir.model.fields,field_description:dds_localization_stock_sk.field_stock_picking__dds_partner_shipping_zip
+msgid "Delivery address - Zip"
+msgstr "Dodacia adresa - PSČ"
+
+#. module: dds_localization_stock_sk
+#: model:ir.model.fields,field_description:dds_localization_stock_sk.field_stock_picking__display_name
+msgid "Display Name"
+msgstr "Zobrazované meno"
+
+#. module: dds_localization_stock_sk
+#: model:ir.model.fields,field_description:dds_localization_stock_sk.field_stock_picking__id
+msgid "ID"
+msgstr "IČO"
+
+#. module: dds_localization_stock_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_stock_sk.report_delivery_document_inherit_dds_localization_sk
+msgid "ID:"
+msgstr "IČO:"
+
+#. module: dds_localization_stock_sk
+#: model:ir.model.fields,field_description:dds_localization_stock_sk.field_stock_picking____last_update
+msgid "Last Modified on"
+msgstr "Posledná úprava"
+
+#. module: dds_localization_stock_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_stock_sk.view_picking_form
+msgid "Name"
+msgstr "Názov"
+
+#. module: dds_localization_stock_sk
+#: model:ir.model.fields,field_description:dds_localization_stock_sk.field_stock_picking__dds_partner_city
+msgid "Partner - City"
+msgstr "Partner - mesto"
+
+#. module: dds_localization_stock_sk
+#: model:ir.model.fields,field_description:dds_localization_stock_sk.field_stock_picking__dds_partner_country
+msgid "Partner - Country"
+msgstr "Partner - krajina"
+
+#. module: dds_localization_stock_sk
+#: model:ir.model.fields,field_description:dds_localization_stock_sk.field_stock_picking__dds_partner_name
+msgid "Partner - Name"
+msgstr "Partner - názov"
+
+#. module: dds_localization_stock_sk
+#: model:ir.model.fields,field_description:dds_localization_stock_sk.field_stock_picking__dds_partner_state
+msgid "Partner - State"
+msgstr "Partner - štát"
+
+#. module: dds_localization_stock_sk
+#: model:ir.model.fields,field_description:dds_localization_stock_sk.field_stock_picking__dds_partner_street
+msgid "Partner - Street"
+msgstr "Partner - ulica"
+
+#. module: dds_localization_stock_sk
+#: model:ir.model.fields,field_description:dds_localization_stock_sk.field_stock_picking__dds_partner_street2
+msgid "Partner - Street 2"
+msgstr "Partner - ulica 2"
+
+#. module: dds_localization_stock_sk
+#: model:ir.model.fields,field_description:dds_localization_stock_sk.field_stock_picking__dds_partner_zip
+msgid "Partner - Zip"
+msgstr "Partner - PSČ"
+
+#. module: dds_localization_stock_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_stock_sk.view_picking_form
+msgid "State"
+msgstr "Štát"
+
+#. module: dds_localization_stock_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_stock_sk.view_picking_form
+msgid "Street"
+msgstr "Ulica"
+
+#. module: dds_localization_stock_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_stock_sk.view_picking_form
+msgid "Street 2"
+msgstr "Ulica 2"
+
+#. module: dds_localization_stock_sk
+#: model:ir.model.fields,field_description:dds_localization_stock_sk.field_stock_picking__dds_partner_dds_tax_id
+msgid "Tax ID (DIČ)"
+msgstr "DIČ"
+
+#. module: dds_localization_stock_sk
+#: model:ir.model.fields,field_description:dds_localization_stock_sk.field_stock_picking__dds_partner_vat
+msgid "Tax ID (IČ DPH)"
+msgstr "IČ DPH"
+
+#. module: dds_localization_stock_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_stock_sk.report_delivery_document_inherit_dds_localization_sk
+msgid "Tax ID:"
+msgstr "DIČ:"
+
+#. module: dds_localization_stock_sk
+#: model:ir.model,name:dds_localization_stock_sk.model_stock_picking
+msgid "Transfer"
+msgstr "Prevod"
+
+#. module: dds_localization_stock_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_stock_sk.report_delivery_document_inherit_dds_localization_sk
+msgid "Vat ID:"
+msgstr "IČ DPH:"
+
+#. module: dds_localization_stock_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_stock_sk.view_picking_form
+msgid "Vendor"
+msgstr "Dodávateľ"
+
+#. module: dds_localization_stock_sk
+#: model_terms:ir.ui.view,arch_db:dds_localization_stock_sk.view_picking_form
+msgid "ZIP"
+msgstr "PSČ"

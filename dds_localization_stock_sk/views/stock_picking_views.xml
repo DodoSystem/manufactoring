@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<odoo>
+	<data>
+		<record id="view_picking_form" model="ir.ui.view">
+			<field name="name">stock.picking.form.inherit.dds_localization_stock_sk</field>
+			<field name="model">stock.picking</field>
+			<field name="inherit_id" ref="stock.view_picking_form"/>
+			<field name="priority" eval="100"/>
+			<field name="type">form</field>
+			<field name="arch" type="xml">
+				<xpath expr="//page[last()]" position="after">
+					<page name="addresses" string="Addresses" attrs="{'invisible': [('picking_type_code', 'not in', ('outgoing', 'incoming'))]}">
+						<group col="4">							
+							<group string="Customer" col="2" colspan="2" attrs="{'invisible': [('picking_type_code', 'not in', ('outgoing'))]}">
+								<field string="Name" name="dds_partner_name" />
+								<field string="Street" name="dds_partner_street" />
+								<field string="Street 2" name="dds_partner_street2" />
+								<field string="City" name="dds_partner_city" />
+								<field string="State" name="dds_partner_state" invisible="1" />
+								<field string="ZIP" name="dds_partner_zip" />
+								<field string="Country" name="dds_partner_country" />
+								<field name="dds_partner_dds_company_id" />
+								<field name="dds_partner_dds_tax_id" />
+								<field name="dds_partner_vat" />
+							</group>
+							<group string="Vendor" col="2" colspan="2" attrs="{'invisible': [('picking_type_code', 'not in', ('incoming'))]}">
+								<field string="Name" name="dds_partner_name" />
+								<field string="Street" name="dds_partner_street" />
+								<field string="Street 2" name="dds_partner_street2" />
+								<field string="City" name="dds_partner_city" />
+								<field string="State" name="dds_partner_state" invisible="1" />
+								<field string="ZIP" name="dds_partner_zip" />
+								<field string="Country" name="dds_partner_country" />
+								<field name="dds_partner_dds_company_id" />
+								<field name="dds_partner_dds_tax_id" />
+								<field name="dds_partner_vat" />
+							</group>
+							<group string="Delivery address" col="2" colspan="2">
+								<field string="Name" name="dds_partner_shipping_name" />
+								<field string="Street" name="dds_partner_shipping_street" />
+								<field string="Street 2" name="dds_partner_shipping_street2" />
+								<field string="City" name="dds_partner_shipping_city" />
+								<field string="State" name="dds_partner_shipping_state" invisible="1" />
+								<field string="ZIP" name="dds_partner_shipping_zip" />
+								<field string="Country" name="dds_partner_shipping_country" />
+							</group>
+						</group>
+					</page>
+				</xpath>
+			</field>
+		</record>
+		<record id="vpicktree" model="ir.ui.view">
+			<field name="name">stock.picking.tree.inherit.dds_localization_stock_sk</field>
+			<field name="model">stock.picking</field>
+			<field name="inherit_id" ref="stock.vpicktree"/>
+			<field name="priority" eval="100"/>
+			<field name="arch" type="xml">
+				<xpath expr="//field[@name='partner_id']" position="after">
+					<field name="dds_partner_dds_company_id" optional="hide"/>
+					<field name="dds_partner_dds_tax_id" optional="hide"/>
+					<field name="dds_partner_vat" optional="hide"/>
+				</xpath>
+			</field>
+		</record>
+	</data>
+</odoo>
